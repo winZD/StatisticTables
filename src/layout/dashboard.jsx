@@ -99,7 +99,16 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <div>
+    <div
+      style={{
+        backgroundColor: "lightgrey",
+        position: "absolute",
+        top: "0px",
+        right: "0px",
+        bottom: "0px",
+        left: "0px",
+      }}
+    >
       <Title2>
         <strong>Salvis TV Dashboard</strong>
       </Title2>
@@ -230,6 +239,7 @@ const Container2 = styled.div`
   
   justify-content: center;
   text-align: center;
+  
 `;
 const Title2 = styled.div`
   height: 40px;
